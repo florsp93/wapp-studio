@@ -1,14 +1,16 @@
-import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import "../src/ProyectContainer.css";
-import "../src/AboutMe.css";
-import "../src/Footer.css";
-import "../src/NavigationBar.css";
-import "../src/Animations.css";
+
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+
+import "bootstrap/dist/css/bootstrap.css";
+import "./components/nav-bar/nav-bar.styles.css";
+import "../src/components/about-me/about-me.styles.css";
+import "../src/components/footer/footer.styles.css";
+import "../src/animations.css";
+import "./index.css";
+import "./App.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

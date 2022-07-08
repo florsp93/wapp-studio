@@ -1,9 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import ProyectContainer from "./ProyectContainer";
-import AboutMe from "./AboutMe";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import AboutMe from "./components/about-me/about-me.component";
+import NavBar from "./components/nav-bar/nav-bar.component";
+import Footer from "./components/footer/footer.component";
 import Image from "react-bootstrap/Image";
 
 const Proyects = [
@@ -47,7 +46,7 @@ const App = () => {
           {"< Proyectos />"}
         </h1>
       </div>
-      <Container fluid className="ProyectsCarrouselContainer ">
+      <Container fluid className="ProyectsCarrouselContainer">
         {Proyects.map((proyect, i) => (
           <div fluid key={i} className="ProyectContainer fade-in">
             <a href={proyect.pageUrl} target="_blank" rel="noreferrer">
