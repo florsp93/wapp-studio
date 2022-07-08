@@ -1,0 +1,44 @@
+/*------ ABOUT ME CONTAINER ------*/
+.AboutMeContainer {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+/*------ PRESENTATION TEXT  ------*/
+.presentationText {
+  border-left: 1px solid black;
+  padding-left: 30px;
+  padding-right: 10%;
+  width: 85%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+}
+.titleBox {
+  width: 15%;
+}
+
+.linkedInButton {
+  background-color: #0a66c2; /* Green */
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #d3b1c2;
+  margin-top: 20px;
+}
+
+.linkedInButton:hover {
+  background-color: #d3b1c2;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .titleBox {
+    width: 30px;
+  }
+}

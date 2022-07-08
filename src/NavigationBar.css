@@ -1,0 +1,30 @@
+.navBarDiv {
+  margin-bottom: 5%;
+  margin-top: 3%;
+  padding-left: 15%;
+}
+.navBarLeyend {
+  padding-left: 6%;
+}
+.navBarH1 {
+  animation: fadeIn 5s;
+}
+@media only screen and (max-width: 600px) {
+  .navBarDiv {
+    margin-bottom: 0;
+    margin-top: 3%;
+    padding-left: 10%;
+  }
+  .navBarH1 {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navBarDiv {
+    margin-top: 20px;
+  }
+  .navBarLeyend {
+    padding-left: 0;
+  }
+}
