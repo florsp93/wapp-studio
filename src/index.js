@@ -4,11 +4,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-import "bootstrap/dist/css/bootstrap.css";
-import "./components/nav-bar/nav-bar.styles.css";
 import "../src/components/about-me/about-me.styles.css";
 import "../src/components/footer/footer.styles.css";
-import "../src/animations.css";
+import "../src/assets/animations/animations.css";
+import "./components/nav-bar/nav-bar.styles.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import "./App.css";
 

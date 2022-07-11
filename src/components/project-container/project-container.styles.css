@@ -1,0 +1,88 @@
+  /*------ PROJECT CONTAINER ------*/
+  .ProjectContainer {
+    width: 320px;
+    height: 384px;
+    margin-right: 72px;
+    margin-bottom: 72px;
+    background-color: #ffe3f5;
+    box-shadow: 5px 5px 1px white;
+  }
+  .ProjectContainer:hover {
+    width: 320px;
+    height: 384px;
+    margin-right: 72px;
+    margin-bottom: 72px;
+    background-color: #ffe3f5;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 15px 15px 1px white;
+  }
+  
+  .projectImage {
+    height: 55%;
+    width: 100%;
+    margin-bottom: 16px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+  .projectImage:hover {
+    height: 55%;
+    width: 100%;
+    margin-bottom: 16px;
+    cursor: pointer;
+    filter: none;
+  }
+  .cardItemsDiv {
+    margin-left: 15px;
+    margin-right: 20px;
+    height: auto;
+    background-color: #ebc6de;
+  }
+  .cardFonts {
+    font-size: 1.6em;
+  }
+  .gitHubLink {
+    background-color: rgba(76, 175, 80, 0);
+    color: black;
+    background-color: #a28192;
+    border: 2px solid #a28192;
+    margin-top: 1px;
+    padding: 6px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .gitHubLink:hover {
+    border: 2px solid #d3b1c2;
+    color: white;
+    background-color: rgba(253, 245, 230, 0);
+    margin-top: 1px;
+    padding: 6px 14px;
+    text-transform: uppercase;
+  }
+
+
+   /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 600px) {
+       /*------ PROJECT CONTAINER ------*/
+       .ProjectContainer {
+        transform: scale(0.9);
+        margin: 0;
+        margin-bottom: 25px;
+      }
+      .ProjectContainer:hover {
+        width: 320px;
+        height: 384px;
+        margin-right: 0px;
+        margin-bottom: 72px;
+        background-color: #ffe3f5;
+        transition: 0.3s;
+        transform: scale(1.05);
+      }
+   }

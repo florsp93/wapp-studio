@@ -1,4 +1,4 @@
-export const Proyects = [
+export const Projects = [
   {
     imageUrl: "finance-app.webp",
     title: "Finance App",
