@@ -1,5 +1,5 @@
-/*------ PROYECTS TITLE ------*/
-.proyectsTitleDiv {
+/*------ PROJECTS TITLE ------*/
+.projectsTitleDiv {
     padding-left: 15%;
     padding-top: 40px;
     padding-bottom: 2%;
@@ -7,13 +7,13 @@
     color: white;
     text-transform: uppercase;
   }
-  .proyectsTitle {
+  .projectsTitle {
     font-size: 7vw;
     margin-bottom: 0;
   }
   
-  /*------ PROYECTS CARROUSEL CONTAINER ------*/
-  .ProyectsCarrouselContainer {
+  /*------ PROJECTS CARROUSEL CONTAINER ------*/
+  .ProjectsCarrouselContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -23,105 +23,21 @@
     background-color: #613659;
   }
   
-  /*------ PROYECT CONTAINER ------*/
-  .ProyectContainer {
-    width: 320px;
-    height: 384px;
-    margin-right: 72px;
-    margin-bottom: 72px;
-    background-color: #ffe3f5;
-    box-shadow: 5px 5px 1px white;
-  }
-  .ProyectContainer:hover {
-    width: 320px;
-    height: 384px;
-    margin-right: 72px;
-    margin-bottom: 72px;
-    background-color: #ffe3f5;
-    transition: 0.3s;
-    transform: scale(1.05);
-    box-shadow: 15px 15px 1px white;
-  }
-  
-  .proyectImage {
-    height: 55%;
-    width: 100%;
-    margin-bottom: 16px;
-    cursor: pointer;
-    filter: grayscale(100%);
-    transition: 0.5s;
-  }
-  .proyectImage:hover {
-    height: 55%;
-    width: 100%;
-    margin-bottom: 16px;
-    cursor: pointer;
-    filter: none;
-  }
-  .cardItemsDiv {
-    margin-left: 15px;
-    margin-right: 20px;
-    height: auto;
-    background-color: #ebc6de;
-  }
-  .cardFonts {
-    font-size: 1.6em;
-  }
-  .gitHubLink {
-    background-color: rgba(76, 175, 80, 0);
-    color: black;
-    background-color: #a28192;
-    border: 2px solid #a28192;
-    margin-top: 1px;
-    padding: 6px 14px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 0.9em;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    text-transform: uppercase;
-    display: inline-block;
-  }
-  
-  .gitHubLink:hover {
-    border: 2px solid #d3b1c2;
-    color: white;
-    background-color: rgba(253, 245, 230, 0);
-    margin-top: 1px;
-    padding: 6px 14px;
-    text-transform: uppercase;
-  }
-  
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    /*------ PROYECTS TITLE ------*/
-    .proyectsTitleDiv {
+    /*------ PROJECTS TITLE ------*/
+    .projectsTitleDiv {
       padding-top: 25px;
       padding-left: 10%;
     }
-    /*------ PROYECTS CARROUSEL CONTAINER ------*/
-    .ProyectsCarrouselContainer {
+    /*------ PROJECTS CARROUSEL CONTAINER ------*/
+    .ProjectsCarrouselContainer {
       justify-content: space-evenly;
       padding-left: 10%;
       padding-right: 10%;
       padding-top: 10px;
       width: 100%;
       background-color: #613659;
-    }
-    /*------ PROYECT CONTAINER ------*/
-    .ProyectContainer {
-      transform: scale(0.9);
-      margin: 0;
-      margin-bottom: 25px;
-    }
-    .ProyectContainer:hover {
-      width: 320px;
-      height: 384px;
-      margin-right: 0px;
-      margin-bottom: 72px;
-      background-color: #ffe3f5;
-      transition: 0.3s;
-      transform: scale(1.05);
     }
   }
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -135,10 +51,10 @@
   }
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    .proyectsTitleDiv {
+    .projectsTitleDiv {
       padding-bottom: 20px;
     }
-    .proyectsTitle {
+    .projectsTitle {
       font-size: 90px;
       margin-bottom: 0;
     }
